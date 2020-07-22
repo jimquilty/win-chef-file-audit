@@ -5,6 +5,6 @@ copyright: Jim Quilty
 copyright_email: jquilty@chef.io
 license: Apache-2.0
 summary: InSpec profile to check for the presence of a file
-version: 0.1.0
+version: 0.1.1
 supports:
   platform-family: windows
