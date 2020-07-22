@@ -9,6 +9,6 @@ control "File-Check-01" do                        # A unique ID for this control
   desc "Checks to see that the Chef file exists and that it's contents matches what is expected."
   describe file('C:\chef.txt') do                 # The actual test
     it { should exist }
-    its('content') { should eq 'Chef is Great!\r\n' }
+    its('content') { should eq 'Chef is Great!' }
   end
 end
